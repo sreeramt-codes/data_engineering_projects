@@ -7,3 +7,6 @@ brew install --cask pgadmin4  #latest pgadmin version
 brew services start postgresql
 # Stop PostgreSQL service
 brew services start postgresql
+
+#test network connectivity to postgres dbs/other ips
+telnet localhost 5432 #telnet <ip> <port>

@@ -15,5 +15,14 @@ git clone https://github.com/username/repo-name.git
 git branch -M main
 git push -u origin main
 
-#rebase
+#rebase (multiple parallel commits)
 git pull --rebase
+
+
+#rebase (multiple transaction histories)
+git pull origin main --rebase
+
+
+#force push
+git push -u origin main --force
+

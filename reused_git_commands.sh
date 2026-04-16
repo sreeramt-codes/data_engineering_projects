@@ -14,3 +14,6 @@ git clone https://github.com/username/repo-name.git
 #branching and push
 git branch -M main
 git push -u origin main
+
+#rebase
+git pull --rebase
